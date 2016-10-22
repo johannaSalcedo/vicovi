@@ -18,7 +18,6 @@ public partial class Presentacion_Frontend_Login : System.Web.UI.Page
 
         ingresar.Usuario = Tb_usuario.Text.ToString();
         ingresar.Contrasena = Tb_contra.Text.ToString();
-
         inicioSesion daoUser = new inicioSesion();
         DataTable datos = daoUser.login(ingresar);
         System.Diagnostics.Debug.Write(datos);
@@ -51,6 +50,7 @@ public partial class Presentacion_Frontend_Login : System.Web.UI.Page
             }
             //this.RegisterStartupScript("mensaje", "<script type='text/javascript'>alert('bienvenido "+user[0][0]+"');window.location=\"Cliente.aspx\"</script>");
            
+
         }
         else
             this.RegisterStartupScript("mensaje", "<script type='text/javascript'>alert('Error en Usuario o Clave');window.location=\"Login.aspx\"</script>");
