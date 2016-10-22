@@ -1,0 +1,318 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Logica/Pagina_prncipal.master.cs" Inherits="Presentacion_Frontend_Pagina_prncipal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Pagina principal</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 23px;
+        }
+        .auto-style7 {
+            height: 23px;
+            width: 95px;
+        }
+        .auto-style8 {
+            text-align: center;
+            background-color: #9F6A35;
+        }
+        .auto-style9 {
+        }
+        .auto-style11 {
+            height: 23px;
+            width: 112px;
+        }
+        .auto-style13 {
+        }
+        .auto-style16 {
+            height: 23px;
+            width: 134px;
+        }
+        .auto-style18 {
+            width: 134px;
+        }
+        .auto-style19 {
+            height: 32px;
+            background-color: #9F6A35;
+            text-align: left;
+        }
+        .auto-style20 {
+            height: 23px;
+            width: 118px;
+        }
+        .auto-style22 {
+            width: 118px;
+        }
+        .auto-style23 {
+            width: 112px;
+            height: 36px;
+        }
+        .auto-style24 {
+            width: 118px;
+            height: 36px;
+        }
+        .auto-style25 {
+            width: 134px;
+            height: 36px;
+        }
+        .auto-style26 {
+            height: 36px;
+        }
+        .auto-style27 {
+            width: 127px;
+            text-align: center;
+        }
+        .auto-style28 {
+            width: 95px;
+            text-align: center;
+        }
+        .auto-style29 {
+        }
+        .auto-style30 {
+            height: 23px;
+            width: 127px;
+        }
+        .auto-style31 {
+            width: 127px;
+        }
+        .auto-style32 {
+            text-align: center;
+        }
+        .auto-style34 {
+            width: 160px;
+        }
+        .auto-style36 {
+            width: 160px;
+            text-align: center;
+        }
+        .auto-style37 {
+            height: 23px;
+            width: 160px;
+        }
+        .auto-style38 {
+            width: 160px;
+            height: 36px;
+        }
+        .auto-style39 {
+            height: 367px;
+        }
+        body {
+            background-position: center center; 
+            background-image: url('../Images/imagenIndex.jpg'); 
+            background-repeat: no-repeat;
+        }
+        .auto-style29 {
+            text-align: center;
+            height: 23px;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div style="background-image: url('/Images/imagenIndex.jpg'); background-repeat: no-repeat; background-position: center center">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style7"></td>
+                <td class="auto-style30"></td>
+                <td class="auto-style11"></td>
+                <td class="auto-style20"></td>
+                <td class="auto-style16"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style37"></td>
+                <td class="auto-style2"></td>
+            </tr>
+            <tr>
+                <td class="auto-style8" colspan="2" rowspan="5">
+                    <asp:Image ID="Image1" runat="server" Height="113px" ImageUrl="~/images/logo.jpg" style="text-align: center; margin-right: 0px" Width="168px" />
+                </td>
+                <td class="auto-style19" colspan="6">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button1" runat="server" BackColor="#9F6A35" BorderColor="#9F6A35" BorderStyle="None" ForeColor="White" Height="22px" Text="Inicio" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button2" runat="server" BackColor="#9F6A35" BorderColor="#9F6A35" BorderStyle="None" ForeColor="White" Text="Conocenos" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button3" runat="server" BackColor="#9F6A35" BorderColor="#9F6A35" BorderStyle="None" ForeColor="White" Text="Inicio de sesion" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style11"></td>
+                <td class="auto-style20"></td>
+                <td class="auto-style16"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style37"></td>
+                <td class="auto-style2"></td>
+            </tr>
+            <tr>
+                <td class="auto-style23"></td>
+                <td class="auto-style24"></td>
+                <td class="auto-style25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+                <td class="auto-style26"></td>
+                <td class="auto-style38"></td>
+                <td class="auto-style26"></td>
+            </tr>
+            <tr>
+                <td class="auto-style28">&nbsp;</td>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style28">&nbsp;</td>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton4" runat="server" Height="29px" ImageUrl="~/images/buscar.png" Width="35px" />
+&nbsp;&nbsp;
+                    <asp:TextBox ID="TextBox1" runat="server" Width="160px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style40"></td>
+                <td class="auto-style41"></td>
+                <td class="auto-style40"></td>
+                <td class="auto-style42"></td>
+                <td class="auto-style43"></td>
+                <td class="auto-style40"></td>
+                <td class="auto-style44"></td>
+                <td class="auto-style40"></td>
+            </tr>
+            <tr>
+                <td class="auto-style39" colspan="8"> <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+    </div></td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style36">&nbsp;</td>
+                <td class="auto-style32">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style36">&nbsp;</td>
+                <td class="auto-style32">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29" colspan="2" rowspan="6">
+                    <asp:Label ID="Label1" runat="server" Text="Conocenos, se parte de esta espectacular empresa y descubre todas las prendas y acesorios que puedes encontrar para tu mascota."></asp:Label>
+                </td>
+                <td class="auto-style13" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="30px" ImageUrl="~/images/facebook.png" Width="35px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label2" runat="server" Text="Facebook"></asp:Label>
+                </td>
+                <td class="auto-style32" colspan="2" rowspan="5">
+                    <asp:Label ID="Label5" runat="server" Text="Para mayor informacion, comunicate directamente con nosotros a los siguietes numeros: 314 261 9681 - 321 917 2181"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style13" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="31px" ImageUrl="~/images/Icono_de_Twitter.png" Width="33px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label3" runat="server" Text="Twitter"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style13" colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="23px" ImageUrl="~/images/arroba.png" Width="28px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label4" runat="server" Text="Correo"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    
+    </div>
+    </form>
+</body>
+</html>

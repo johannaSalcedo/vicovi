@@ -1,0 +1,350 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Logica/Loginmaster.master.cs" Inherits="Presentacion_Frontend_Loginmaster" %>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  
+    <style type="text/css">
+        .auto-style1 {
+            width: 926px;
+            height: 726px;
+        }
+        .auto-style3 {
+            height: 21px;
+            width: 171px;
+        }
+        .auto-style9 {
+            height: 21px;
+            width: 172px;
+        }
+        </style>
+
+  
+    
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+        body {
+           background-position: center; 
+           background-image: url('../images/ImageneLogin2.jpg'); 
+           background-repeat: no-repeat;
+        }
+        .auto-style11 {
+            height: 21px;
+            width: 116px;
+        }
+        .auto-style12 {
+            height: 19px;
+        }
+        .auto-style13 {
+            text-align: center;
+            height: 19px;
+        }
+        .auto-style14 {
+            width: 172px;
+            height: 19px;
+        }
+        .auto-style15 {
+            height: 368px;
+        }
+        .auto-style16 {
+            height: 20px;
+        }
+        .auto-style17 {
+            text-align: center;
+            height: 20px;
+        }
+        .auto-style18 {
+            width: 172px;
+            height: 20px;
+        }
+        .auto-style22 {
+            height: 21px;
+            width: 110px;
+        }
+        .auto-style23 {
+            height: 19px;
+            width: 110px;
+        }
+        .auto-style24 {
+            height: 19px;
+            width: 116px;
+        }
+        .auto-style25 {
+            height: 25px;
+            width: 110px;
+        }
+        .auto-style26 {
+            height: 25px;
+            width: 116px;
+        }
+        .auto-style27 {
+            height: 26px;
+            width: 110px;
+        }
+        .auto-style28 {
+            height: 26px;
+            width: 116px;
+        }
+        .auto-style29 {
+            height: 20px;
+            width: 110px;
+        }
+        .auto-style30 {
+            height: 20px;
+            width: 116px;
+        }
+        .auto-style31 {
+            width: 171px;
+            height: 19px;
+        }
+        .auto-style34 {
+            width: 171px;
+            height: 20px;
+        }
+        .auto-style35 {
+            height: 22px;
+        }
+        .auto-style36 {
+            text-align: center;
+            height: 22px;
+        }
+        .auto-style38 {
+            height: 22px;
+            width: 171px;
+        }
+        .auto-style39 {
+            height: 22px;
+            width: 110px;
+        }
+        .auto-style40 {
+            height: 22px;
+            width: 172px;
+        }
+        .auto-style41 {
+            height: 22px;
+            width: 116px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+  
+     <div style="background-image: url('/Images/ImageneLogin2.jpg'); background-repeat: no-repeat; background-position: center center">
+    
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style22"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style3"></td>
+                <td class="auto-style9"></td>
+                <td class="auto-style11"></td>
+            </tr>
+            <tr>
+                <td class="auto-style23">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style24">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style23">&nbsp;</td>
+                <td class="auto-style12">
+                    <asp:Button ID="Button1" runat="server" BackColor="Transparent" BorderColor="Transparent" BorderStyle="None" ForeColor="Transparent" style="font-style: italic; font-weight: 700; font-family: Castellar" Text="Atras" />
+                </td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style24">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style23"></td>
+                <td class="auto-style12"></td>
+                <td class="auto-style13"></td>
+                <td class="auto-style31"></td>
+                <td class="auto-style14"></td>
+                <td class="auto-style24"></td>
+            </tr>
+            <tr>
+                <td class="auto-style23">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style24">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style39"></td>
+                <td class="auto-style35"></td>
+                <td class="auto-style36"></td>
+                <td class="auto-style38"></td>
+                <td class="auto-style40"></td>
+                <td class="auto-style41"></td>
+            </tr>
+            <tr>
+                <td class="auto-style23">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style24">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style23">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style13" colspan="2">
+              
+                </td>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style24">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style15" colspan="4" rowspan="16">&nbsp;&nbsp;
+                     <div>
+                         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                         </asp:ContentPlaceHolder>
+                   </div>
+                     
+                    
+                </td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25"></td>
+                <td class="auto-style26"></td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style25">&nbsp;</td>
+                <td class="auto-style26">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style28">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style28">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style28">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style27">&nbsp;</td>
+                <td class="auto-style28">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style16">&nbsp;</td>
+                <td class="auto-style17">&nbsp;</td>
+                <td class="auto-style34">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+            </tr>
+        </table>
+       
+  </div>
+      
+   </form>
+</body>
+</html>
